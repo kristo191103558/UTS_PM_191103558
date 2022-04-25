@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UTS_PM_191103558">
         <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
